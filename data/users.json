@@ -1,0 +1,12 @@
+[
+  { "user_id": "U001", "name": "Ramesh Kumar", "phone": "9876543210", "vehicle_type": "Truck", "preferred_language": "hi" },
+  { "user_id": "U002", "name": "Suresh Yadav", "phone": "9876543211", "vehicle_type": "Tempo", "preferred_language": "hi" },
+  { "user_id": "U003", "name": "Manoj Singh", "phone": "9876543212", "vehicle_type": "Truck", "preferred_language": "hi" },
+  { "user_id": "U004", "name": "Praveen Reddy", "phone": "9876543213", "vehicle_type": "Mini Truck", "preferred_language": "te" },
+  { "user_id": "U005", "name": "Mahesh Gowda", "phone": "9876543214", "vehicle_type": "Truck", "preferred_language": "kn" },
+  { "user_id": "U006", "name": "Amit Sharma", "phone": "9876543215", "vehicle_type": "Tempo", "preferred_language": "hi" },
+  { "user_id": "U007", "name": "Santosh Gupta", "phone": "9876543216", "vehicle_type": "Truck", "preferred_language": "hi" },
+  { "user_id": "U008", "name": "Kiran Kumar", "phone": "9876543217", "vehicle_type": "Mini Truck", "preferred_language": "te" },
+  { "user_id": "U009", "name": "Ravi Naik", "phone": "9876543218", "vehicle_type": "Truck", "preferred_language": "kn" },
+  { "user_id": "U010", "name": "Anil Verma", "phone": "9876543219", "vehicle_type": "Tempo", "preferred_language": "hi" }
+  ]
