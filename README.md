@@ -33,5 +33,21 @@ This text is then passed to the core of the system, a powerful language model (s
 
 This response is then processed by a Response Generation & Business Logic Layer. Finally, the text is fed into a Text-to-Speech API (e.g., pyTTSx3), which synthesizes the final audio output. This audio is played back to the user, often complemented by visual cards on the device's screen for a complete and intuitive user experience.
 
+* Architecture diagram:
+  START
+   |
+   v
+User Device / UI  --->  Speech-to-Text (Whisper API) --->  Gemini (LLM + Gemini API)
+   |                                                                     |
+   |                                                                     v
+   |                                                   Response Generation + Business Logic
+   |                                                                     |
+   v                                                                     v
+Delivery JSON  <---->  User JSON                            Text-to-Speech (pyTTSx3)
+   |                                                                     |
+   v                                                                     v
+END <--- Audio Playback + Visual Cards <--- User Device / UI
+
+
 ## Impact
 Porter Saathi is not just a tool—it's a path to genuine empowerment. By making critical information accessible to everyone, it helps our driver-partners build confidence, grow their business, and achieve true independence. This is a companion for the journey ahead.
