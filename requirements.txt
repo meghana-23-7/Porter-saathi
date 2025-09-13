@@ -1,0 +1,9 @@
+python-dotenv
+sounddevice
+wavio
+pyttsx3
+whisper
+torch
+deep-translator
+googletrans==4.0.0-rc1
+duckduckgo-search
